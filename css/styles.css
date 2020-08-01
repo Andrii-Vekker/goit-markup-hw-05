@@ -278,10 +278,17 @@ a {
 }
 
 /* what we do */
+.what-we-do {
+  padding-top: 0;
+}
 .what-we-do-list {
   display: flex;
 }
 .what-we-do-secondary-title {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   width: 370px;
   height: 70px;
   padding: 27px;
@@ -295,6 +302,7 @@ a {
   background: rgba(47, 48, 58, 0.8);
 }
 .what-we-do-list-item {
+  position: relative;
   width: 370px;
 }
 .what-we-do-list-item:not(:last-child) {
@@ -352,6 +360,7 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: 250ms var(--transition-timing-function);
 }
 .our-team-list-ikon-item-link:hover,
 .our-team-list-ikon-item-link:focus {

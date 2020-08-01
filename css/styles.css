@@ -205,6 +205,7 @@ a {
   color: var(--secondary-title-font-color);
 }
 .btn-service {
+  padding: 10px 32px;
   border-radius: 4px;
   border: none;
   font-style: normal;
@@ -482,6 +483,7 @@ a {
   justify-content: center;
 }
 .filter-btns-item {
+  padding: 6px 22px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
